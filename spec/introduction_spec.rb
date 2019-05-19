@@ -7,7 +7,7 @@ describe "#introduction" do
     expect{introduction("Josh")}.to output("Hi, my name is Josh.\n").to_stdout
   end
 end
-def 
+def languageintroduction_with(name , language)
 describe "#_languageintroduction_with" do 
   it "takes in two arguments, a name and a language, and puts out a phrase using those arguments." do 
     expect{introduction_with_language("Dan", "Ember.js")}.to output("Hi, my name is Dan and I am learning to program in Ember.js.\n").to_stdout
